@@ -1,0 +1,67 @@
+name: gitscope
+description: "GitScope - GitHub User Explorer. A portfolio app demonstrating GraphQL, Riverpod, and clean architecture."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod: ^2.6.1
+  riverpod_annotation: ^2.6.1
+
+  # GraphQL
+  graphql_flutter: ^5.2.0-beta.7
+
+  # Navigation
+  go_router: ^14.8.1
+
+  # Data Models
+  freezed_annotation: ^3.0.0
+  json_annotation: ^4.9.0
+
+  # UI
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  google_fonts: ^6.2.1
+
+  # Utils
+  connectivity_plus: ^6.1.4
+
+  cupertino_icons: ^1.0.8
+  flutter_dotenv: ^6.0.1
+  url_launcher: ^6.3.2
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # Code Generation
+  build_runner: ^2.4.14
+  riverpod_generator: ^2.6.5
+  freezed: ^3.0.0
+  json_serializable: ^6.9.4
+  custom_lint: ^0.7.5
+  riverpod_lint: ^2.6.5
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - .env
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_icon.png"
+  min_sdk_android: 21
