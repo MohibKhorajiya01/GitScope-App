@@ -37,6 +37,6 @@ class AppStrings {
   static const String errorServer =
       'GitHub API is currently unavailable.\nPlease try again later.';
   static const String errorToken =
-      'GitHub token is missing.\nRun the app with --dart-define=GITHUB_TOKEN=your_token';
+      'GitHub token is missing or invalid.\nPlease check your .env file setup.';
   static const String tryAgain = 'Try Again';
 }

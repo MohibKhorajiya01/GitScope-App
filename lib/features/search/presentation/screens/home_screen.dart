@@ -44,7 +44,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
         body: CustomScrollView(
           controller: _scrollController,
           slivers: [
-            // ── Pinned Small AppBar ────────────────────────────
+            // Pinned Small AppBar
             SliverAppBar(
               pinned: true,
               backgroundColor: const Color(0xFF161B22),
@@ -78,7 +78,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
               ),
             ),
 
-            // ── Scrollable Hero Header ──────────────────────────
+            // Scrollable Hero Header
             SliverToBoxAdapter(
               child: Container(
                 decoration: const BoxDecoration(
@@ -115,7 +115,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
               ),
             ),
 
-            // ── Body Content ──────────────────────────────────────
+            // Body Content
             SliverToBoxAdapter(
               child: Padding(
                 padding: const EdgeInsets.fromLTRB(16, 20, 16, 0),
@@ -166,9 +166,7 @@ class _HomeScreenState extends ConsumerState<HomeScreen>
   }
 }
 
-// ─────────────────────────────────────────────────────────────────────────────
-// Search Card
-// ─────────────────────────────────────────────────────────────────────────────
+// Search Card Widget
 class _SearchCard extends StatelessWidget {
   final TextEditingController controller;
   final FocusNode focusNode;
@@ -290,9 +288,7 @@ class _SearchCard extends StatelessWidget {
   }
 }
 
-// ─────────────────────────────────────────────────────────────────────────────
 // Recent Searches Section
-// ─────────────────────────────────────────────────────────────────────────────
 class _RecentSearchesSection extends StatelessWidget {
   final List<String> recents;
   final void Function(String) onTap;
@@ -433,9 +429,7 @@ class _RecentSearchesSection extends StatelessWidget {
   }
 }
 
-// ─────────────────────────────────────────────────────────────────────────────
-// Popular Section (shown when no recent searches)
-// ─────────────────────────────────────────────────────────────────────────────
+// Popular Section
 class _PopularSection extends StatelessWidget {
   final void Function(String) onTap;
 

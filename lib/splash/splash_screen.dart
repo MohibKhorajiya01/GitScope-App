@@ -60,7 +60,7 @@ class _SplashScreenState extends State<SplashScreen>
   Widget build(BuildContext context) {
     return Scaffold(
       body: Container(
-        color: const Color(0xFF161B22), // Solid background to blend the image perfectly
+        color: const Color(0xFF161B22),
         child: Center(
           child: AnimatedBuilder(
             animation: _controller,
@@ -81,7 +81,7 @@ class _SplashScreenState extends State<SplashScreen>
               children: [
                 // Logo Image
                 SizedBox(
-                  width: 120, // 120 * 0.75 (image padding) = 90 (original logo size)
+                  width: 120,
                   height: 120,
                   child: Image.asset(
                     'assets/images/app_icon.png',

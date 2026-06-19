@@ -1,6 +1,12 @@
-# 🔭 GitScope
+<p align="center">
+  <img src="assets/images/app_icon.png" width="120" alt="GitScope Logo" />
+</p>
 
-**GitScope** is a sleek, GitHub-inspired mobile app built with Flutter that lets you explore GitHub profiles and repositories using the GitHub GraphQL API.
+<h1 align="center">🔭 GitScope</h1>
+
+<p align="center">
+  <strong>GitScope</strong> is a sleek, GitHub-inspired mobile app built with Flutter that lets you explore GitHub profiles and repositories using the GitHub GraphQL API.
+</p>
 
 ---
 
@@ -59,7 +65,7 @@ lib/
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/gitscope.git
+   git clone https://github.com/MohibKhorajiya01/gitscope.git
    cd gitscope
    ```
 
@@ -86,7 +92,12 @@ lib/
 
 ## 📸 Screenshots
 
-_Coming soon_
+<p align="center">
+  <img src="screenshots/splashScreen.png" width="220" />
+  <img src="screenshots/homepage.png" width="220" />
+  <img src="screenshots/githubUser1.png" width="220" />
+  <img src="screenshots/githubUser2.png" width="220" />
+</p>
 
 ---
 

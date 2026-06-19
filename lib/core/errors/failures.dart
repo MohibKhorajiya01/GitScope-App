@@ -17,7 +17,7 @@ sealed class Failure with _$Failure {
   }) = RateLimitFailure;
 
   const factory Failure.tokenMissing({
-    @Default('GitHub token is missing. Run with --dart-define=GITHUB_TOKEN=your_token') String message,
+    @Default('GitHub token is missing or invalid. Please check your .env file.') String message,
   }) = TokenMissingFailure;
 
   const factory Failure.server({
