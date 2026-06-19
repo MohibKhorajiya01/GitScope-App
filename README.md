@@ -29,28 +29,30 @@ This project follows **Clean Architecture** with a feature-based folder structur
 
 ```
 lib/
-├── core/           # Theme, constants, errors, GraphQL client
+├── core/             # Theme, constants, errors, GraphQL client
 ├── features/
-│   ├── profile/    # User profile (domain → data → presentation)
+│   ├── profile/      # User profile (domain → data → presentation)
 │   ├── repositories/ # Repo list with pagination
-│   └── search/     # Home screen & recent searches
-├── router/         # GoRouter navigation
-├── shared/         # Reusable widgets (LanguageBadge, ErrorView, etc.)
-└── splash/         # Splash screen
+│   └── search/       # Home screen & recent searches
+├── router/           # GoRouter navigation
+├── shared/           # Reusable widgets (LanguageBadge, ErrorView, etc.)
+└── splash/           # Splash screen
 ```
 
-### Tech Stack
+---
 
-| Technology | Purpose |
-|------------|---------|
-| **Flutter** | Cross-platform UI |
-| **Riverpod** (with code gen) | State management |
-| **GraphQL** (`graphql_flutter`) | GitHub API integration |
-| **GoRouter** | Declarative routing |
-| **Google Fonts** (Inter) | Typography |
-| **shared_preferences** | Local persistence |
-| **url_launcher** | Open repos in browser |
-| **Freezed** | Sealed classes for error types |
+## 🛠️ Tech Stack
+
+| Technology                      | Purpose                          |
+|----------------------------------|-----------------------------------|
+| **Flutter**                      | Cross-platform UI                |
+| **Riverpod** (with code gen)      | State management                 |
+| **GraphQL** (`graphql_flutter`)   | GitHub API integration           |
+| **GoRouter**                     | Declarative routing              |
+| **Google Fonts** (Inter)         | Typography                       |
+| **shared_preferences**            | Local persistence                |
+| **url_launcher**                  | Open repos in browser            |
+| **Freezed**                       | Sealed classes for error types   |
 
 ---
 
@@ -75,12 +77,12 @@ lib/
    ```
 
 3. **Set up your GitHub token:**
-   
+
    Create a `.env` file in the project root:
-   ```
+   ```env
    GITHUB_TOKEN=your_github_token_here
    ```
-   
+
    > ⚠️ The `.env` file is in `.gitignore` — your token will never be pushed to GitHub.
 
 4. **Run the app:**
@@ -104,3 +106,13 @@ lib/
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+<div align="center">
+
+### 💜 Built with passion using Flutter & GraphQL
+
+**GitScope** — *Explore the world of code, one profile at a time.*
+
+</div>
