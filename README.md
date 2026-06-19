@@ -1,9 +1,34 @@
-
-<h1 align="center">🔭 GitScope</h1>
-
 <p align="center">
-  <strong>GitScope</strong> is a sleek, GitHub-inspired mobile app built with Flutter that lets you explore GitHub profiles and repositories using the GitHub GraphQL API.
+  <img src="assets/images/app_icon.png" width="120" alt="GitScope Logo" />
 </p>
+
+<div align="center">
+
+# 🔭 GitScope
+
+### A Sleek, GitHub-Inspired Explorer — Built with Flutter & GraphQL
+
+*Explore GitHub profiles and repositories with a clean, native mobile experience powered by the GitHub GraphQL API.*
+
+<br/>
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![Riverpod](https://img.shields.io/badge/Riverpod-1B1B1F?style=for-the-badge&logo=flutter&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+![GitHub API](https://img.shields.io/badge/GitHub%20API-181717?style=for-the-badge&logo=github&logoColor=white)
+
+![Platform](https://img.shields.io/badge/Platform-Android%20%7C%20iOS-blue?style=flat-square)
+![Architecture](https://img.shields.io/badge/Architecture-Clean%20Architecture-orange?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=flat-square)
+
+</div>
+
+---
+
+## 📖 Overview
+
+**GitScope** is a sleek, GitHub-inspired mobile app built with **Flutter** that lets you explore GitHub profiles and repositories using the **GitHub GraphQL API**. With a dark, professional UI inspired by GitHub itself, it makes browsing developers and their work feel right at home.
 
 ---
 
@@ -97,6 +122,12 @@ lib/
   <img src="screenshots/githubUser1.png" width="220" />
   <img src="screenshots/githubUser2.png" width="220" />
 </p>
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
